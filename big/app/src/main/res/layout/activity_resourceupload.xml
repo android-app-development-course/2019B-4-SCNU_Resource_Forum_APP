@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.resourceupload">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/laugh"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/zhaopian"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/zhaopian"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:gravity="center"
+        android:text="上传照片"
+        android:textColor="#0E0E0E"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/zhaopian" />
+
+    <ImageView
+        android:id="@+id/wendang"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/wendang"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="140dp"
+        android:gravity="center"
+        android:text="上传文档"
+        android:textColor="#0E0E0E"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wendang" />
+
+    <ImageView
+        android:id="@+id/wenjian"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/wenjian"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="270dp"
+        android:gravity="center"
+        android:text="上传文件"
+        android:textColor="#0E0E0E"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wenjian" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="500dp"
+        android:gravity="center"
+        android:text="上传表示我已阅读并同意《使用条款和隐私政策》"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

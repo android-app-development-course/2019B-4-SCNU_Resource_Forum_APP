@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/home_image"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/backg"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_siji"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/siji"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_image" />
+
+    <Button
+        android:id="@+id/button_liuji"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/liuji"
+        app:layout_constraintLeft_toRightOf="@+id/button_siji"
+        app:layout_constraintTop_toBottomOf="@+id/home_image" />
+
+    <Button
+        android:id="@+id/button_xinxi"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/xinxi2"
+        app:layout_constraintLeft_toRightOf="@+id/button_liuji"
+        app:layout_constraintTop_toBottomOf="@+id/home_image" />
+
+    <Button
+        android:id="@+id/button_kaoyan"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/kaoyan"
+        app:layout_constraintLeft_toRightOf="@+id/button_xinxi"
+        app:layout_constraintTop_toBottomOf="@+id/home_image" />
+
+    <Button
+        android:id="@+id/button_erji"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/erji"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/home_image" />
+
+    <Button
+        android:id="@+id/button_tuofu"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/tuofu"
+        app:layout_constraintLeft_toRightOf="@+id/button_erji"
+        app:layout_constraintTop_toBottomOf="@+id/home_image" />
+
+    <Button
+        android:id="@+id/button_yasi"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/yasi"
+        app:layout_constraintLeft_toRightOf="@+id/button_tuofu"
+        app:layout_constraintTop_toBottomOf="@+id/home_image" />
+
+    <Button
+        android:id="@+id/button_mandrain"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/putonghua"
+        app:layout_constraintLeft_toRightOf="@+id/button_yasi"
+        app:layout_constraintTop_toBottomOf="@+id/home_image" />
+
+    <Button
+        android:id="@+id/button_zhuanye"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/zhuanye"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_image" />
+
+    <Button
+        android:id="@+id/button_jiaozi"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/jiaozi"
+        app:layout_constraintLeft_toRightOf="@+id/button_zhuanye"
+        app:layout_constraintTop_toBottomOf="@+id/home_image" />
+
+    <Button
+        android:id="@+id/button_zhengshu"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/zhengshu"
+        app:layout_constraintLeft_toRightOf="@+id/button_jiaozi"
+        app:layout_constraintTop_toBottomOf="@+id/home_image" />
+
+    <Button
+        android:id="@+id/button_xianzhi"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/xianzhi"
+        app:layout_constraintLeft_toRightOf="@+id/button_zhengshu"
+        app:layout_constraintTop_toBottomOf="@+id/home_image" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="76dp"
+        android:src="@drawable/laugh"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_xianzhi" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

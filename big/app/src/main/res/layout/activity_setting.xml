@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.myfragment.setting">
+
+    <ImageView
+        android:id="@+id/setting_head"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/i1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="点击头像更换"
+        app:layout_constraintLeft_toRightOf="@+id/setting_head"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/xuehao_text"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:text="学号："
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/setting_head" />
+
+    <EditText
+        android:id="@+id/xuehao"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintLeft_toRightOf="@+id/xuehao_text"
+        app:layout_constraintTop_toBottomOf="@+id/setting_head" />
+
+    <TextView
+        android:id="@+id/xuexiao_text"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="140dp"
+        android:text="学校："
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/setting_head" />
+
+    <EditText
+        android:id="@+id/xuexiao"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintLeft_toRightOf="@+id/xuexiao_text"
+        app:layout_constraintTop_toBottomOf="@+id/setting_head" />
+
+    <TextView
+        android:id="@+id/xueyuan_text"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="230dp"
+        android:text="学院："
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/setting_head" />
+
+    <EditText
+        android:id="@+id/xueyuan"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="210dp"
+        app:layout_constraintLeft_toRightOf="@+id/xueyuan_text"
+        app:layout_constraintTop_toBottomOf="@+id/setting_head" />
+
+    <TextView
+        android:id="@+id/knick_text"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="320dp"
+        android:text="昵称："
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/setting_head" />
+
+    <EditText
+        android:id="@+id/knickname"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="300dp"
+        app:layout_constraintLeft_toRightOf="@+id/knick_text"
+        app:layout_constraintTop_toBottomOf="@+id/setting_head" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/buttonstytle"
+        android:text="确认修改"
+        app:layout_constraintTop_toBottomOf="@+id/knickname" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">华师资源论坛</string>
+    <string name="title_home"><font color="#0C0C0C">首页</font></string>
+    <string name="title_dashboard"><font color="#0C0C0C">发现</font></string>
+    <string name="title_notifications"><font color="#0C0C0C">好友</font></string>
+    <string name="title_my"><font color="#0C0C0C">我的</font></string>
+
+    <string name="content">在这里输入内容</string>
+    <string name="title">在这里输入标题</string>
+    <string name="section">模块选择：</string>
+</resources>

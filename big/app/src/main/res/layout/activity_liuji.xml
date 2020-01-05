@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.siji">
+
+    <ListView
+        android:id="@+id/button_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:divider="@color/list"
+        android:dividerHeight="2dp" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonstytle"
+        android:gravity="center"
+        android:onClick="onclick3"
+        android:text="+"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:background="@drawable/buttonstytle"
+        android:onClick="onclick3"
+        android:text="资源上传"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/download"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:background="@drawable/buttonstytle"
+        android:onClick="onclick3"
+        android:text="资源下载"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/upload" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
